@@ -1,10 +1,81 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .background{
-    background-color:wheat;
-    padding: 50px;
+    background-color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:50px;
+    border-radius: 15px;
+    width: 500px; 
+
 }
-#Celular-e-email{
-    height: 50px;
+.alinhado-a-esquerda{
+    text-align: left;
+}
+.centro{
+    text-align: center;
+}
+.alinhado-a-direita{
+    text-align: center;
+}
+#nome{
+    border-radius: 5px;
+    border: none;
+    width: 165px;
+
+}
+#sobrenome{
+    border-radius: 5px;
+    border: none;
+    width: 165px;
+
+
+}
+#celular-ou-email{
+    width: 338px;
+    border-radius: 5px;
+    border: none;
+
+}
+#senha{
+    width: 338px;
+    border-radius: 5px;
+    border: none;
+
+}
+.dias-do-mes{
+   border-radius: 5px;
+   border: none;
+}
+.meses{
+    border-radius: 5px;
+    border: none;
+}
+.ano{
+    border-radius: 5px;
+    border: none;
+}
+.masculino{
+    background-color: rgb(26, 14, 193);
+    width: 105px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.feminino{
+    background-color:crimson;
+    width: 105px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.região{
+    border-radius: 5px;
+
+}
+.butão{
+    border-radius: 5px;
+    border: none;
+    background-color: darkgreen;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
 }
